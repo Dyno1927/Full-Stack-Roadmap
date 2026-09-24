@@ -9,5 +9,4 @@ still normal (help directly, answer questions, fix things) unless the
 `.claude/skills/mentor-mode/SKILL.md`.
 
 Each stage should end in a real, working project of its own before moving
-to the next. `~/Projects/Stock-Trading-Automation` is available as a
-reference/comparison system for later stages — not something to copy early.
+to the next.

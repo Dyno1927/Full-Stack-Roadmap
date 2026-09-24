@@ -26,9 +26,3 @@ progressively larger and more production-like.
 - **Stage 1 — Foundation:** [`personal-site/`](personal-site/) — my personal
   website in plain HTML/CSS/JS (dark/light toggle, no frameworks).
   It's the "build a static site" deliverable, doubling as my contact page.
-
-## How to use it
-
-Work through `ROADMAP.md` stage by stage. `~/Projects/Stock-Trading-Automation`
-is the recommended reference system for the later stages — not something
-to copy early. For strict mentor-style review, invoke `/mentor-mode`.

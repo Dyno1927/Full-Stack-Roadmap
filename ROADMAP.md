@@ -85,8 +85,8 @@ on. Projects get progressively larger and more production-like.
 ---
 
 ## Reference material already available
-`~/Projects/Stock-Trading-Automation` is a real (if AI-heavily-built) system
-touching most of stages 3–9: FastAPI, async SQLAlchemy, Alembic, Redis
-Streams event bus, Postgres+TimescaleDB, Docker Compose, React+TS dashboard,
-CI. Use it as a comparison point once a stage's fundamentals are genuinely
-understood from scratch — not as the thing being reverse-engineered early.
+I have an older, larger system (mostly AI-built) that touches most of
+stages 3–9: FastAPI, async SQLAlchemy, Alembic, Redis Streams event bus,
+Postgres+TimescaleDB, Docker Compose, React+TS dashboard, CI. Use it as a
+comparison point once a stage's fundamentals are genuinely understood from
+scratch — not as the thing being reverse-engineered early.
