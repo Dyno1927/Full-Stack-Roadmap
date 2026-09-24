@@ -1,4 +1,4 @@
-# Khanishk — Personal Site
+# Personal Site
 
 My personal website — who I am, what I'm building, and how to reach me.
 Built by hand with plain HTML/CSS/JS, no frameworks, no build step.
