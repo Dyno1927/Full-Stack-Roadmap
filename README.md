@@ -17,8 +17,15 @@ progressively larger and more production-like.
 
 - `ROADMAP.md` — the full staged plan
 - `CLAUDE.md` — project instructions for Claude sessions here
+- `projects/` — one sub-project per stage, added as each stage's deliverable
 - `.claude/skills/mentor-mode/SKILL.md` — an optional `/mentor-mode`
   skill that runs strict review sessions on this material when invoked
+
+## Stage projects
+
+- **Stage 1 — Foundation:** [`projects/personal-site/`](projects/personal-site/)
+  — my personal website in plain HTML/CSS/JS (dark/light toggle, no frameworks).
+  It's the "build a static site" deliverable, doubling as my contact page.
 
 ## How to use it
 

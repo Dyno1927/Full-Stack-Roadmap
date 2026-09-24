@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Khanishk — software learning student building projects across C, full-stack, and machine learning. This is who I am and how to reach me.">
+  <title>Khanishk — Student Dev & Learner</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠️</text></svg>">
+</head>
+<body>
+
+  <header class="topbar">
+    <nav class="container">
+      <span class="brand">~/khanishk</span>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">☀️ / 🌙</button>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <!-- About -->
+    <section id="about" class="hero">
+      <h1>Hey, I'm Khanishk.</h1>
+      <p class="tagline">
+        A software-learning student who builds real things to <em>actually</em> understand them —
+        my C journey: a sudoku solver, a password manager, and a dynamic array written from scratch.
+      </p>
+      <p>
+        I live in India. I learn in public — my repos and this site are my honest record of
+        where I am. Right now that's pointers and heap memory. Next up: an HTTP server.
+      </p>
+      <div class="hero-links">
+        <a href="https://github.com/Dyno1927" class="btn">GitHub</a>
+        <a href="mailto:khanishkg@gmail.com" class="btn btn-ghost">Email me</a>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <p class="section-note">Everything I make is a learning project first. Some are even useful.</p>
+
+      <div class="grid">
+
+        <article class="card">
+          <h3>Dynamic Array</h3>
+          <p>A growing vector in C — my first real ownership of heap memory with malloc/realloc/free, header/source split, and an ASan-clean build.</p>
+          <span class="lang">C</span>
+          <a href="https://github.com/Dyno1927/Dynamic-Array">github →</a>
+        </article>
+
+        <article class="card">
+          <h3>Sudoku Solver</h3>
+          <p>Backtracking solver in C. Reads any 81-digit puzzle, solves it by trying numbers and undoing dead ends.</p>
+          <span class="lang">C</span>
+          <a href="https://github.com/Dyno1927/Sudoku-Solver">github →</a>
+        </article>
+
+        <article class="card">
+          <h3>Password Manager</h3>
+          <p>A CLI password manager in C — structs, strings, and file I/O. Plain-text on purpose: it's a learning project, not a vault for real credentials.</p>
+          <span class="lang">C</span>
+          <a href="https://github.com/Dyno1927/Password-Manager">github →</a>
+        </article>
+
+        <article class="card">
+          <h3>Aroma Spices</h3>
+          <p>Full-stack e-commerce for my family's real spice business — Express + MongoDB + Vue, live and in production.</p>
+          <span class="lang">Node / Vue / Mongo</span>
+          <a href="https://github.com/Dyno1927/Aroma-Spices">github →</a>
+        </article>
+
+        <article class="card">
+          <h3>Full-Stack Roadmap</h3>
+          <p>My personal 13-stage path from HTML to production architecture, each stage ending in a real project.</p>
+          <span class="lang">Learning plan</span>
+          <a href="https://github.com/Dyno1927/Full-Stack-Roadmap">github →</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Now -->
+    <section id="now">
+      <h2>What I'm doing now</h2>
+      <ul class="now-list">
+        <li>Learning C properly — pointers, heap memory, and building my dynamic array</li>
+        <li>Next project on the list: an HTTP server from scratch</li>
+        <li>Bashing on a C learning checklist until every box is ticked</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Say hi</h2>
+      <p>
+        I'm always happy to talk shop — C, projects, or just trading learning stories.
+        Email is the fastest way to reach me.
+      </p>
+      <p>
+        <a href="mailto:khanishkg@gmail.com">khanishkg@gmail.com</a>
+      </p>
+      <ul class="contact-links">
+        <li><a href="https://github.com/Dyno1927">github.com/Dyno1927</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="container">
+    <p>© <span id="year"></span> Khanishk. Built by hand — plain HTML/CSS/JS, no frameworks.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
