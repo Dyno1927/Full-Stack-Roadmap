@@ -30,6 +30,6 @@ Hosted on GitHub Pages — just push to `main` and it goes live.
 ```
 Personal-Site/
 ├── index.html      # the whole page
-├── css/style.css   # themes (CSS custom properties) + layout
-└── js/main.js      # theme toggle + footer year
+├── Css/Style.css   # themes (CSS custom properties) + layout
+└── Js/Main.js      # theme toggle + footer year
 ```
